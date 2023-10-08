@@ -13,6 +13,7 @@ Torafugu's Catppuccin Rice, showcased in the ricing channel of the Arch Linux Co
 * `cava` for `waybar-cava`
 * `wttrbar` for weather.
 * `waypaper` for wallpaper
+* [Catppuccin GTK theme](https://github.com/catppuccin/gtk)
 
 If there's more, I'm sure you'll figure it out :P
 
