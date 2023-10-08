@@ -24,3 +24,5 @@ Make sure to move `catppuccin.rasi` to `/usr/share/rofi/themes/` and then set th
 ![desktop](https://github.com/TheRealTorafugu/Dotfiles-Catppuccin/blob/main/gscreenshot_2023-10-08-112517.png?raw=true)
 
 ![3 terminal windows](https://github.com/TheRealTorafugu/Dotfiles-Catppuccin/blob/main/gscreenshot_2023-10-08-113313.png?raw=true)
+
+![video](https://github.com/TheRealTorafugu/Dotfiles-Catppuccin/raw/main/rice-catppuccin.mp4)
