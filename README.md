@@ -12,6 +12,7 @@ Torafugu's Catppuccin Rice, showcased in the ricing channel of the Arch Linux Co
 * `kitty` for that good looking terminal.
 * `cava` for `waybar-cava`
 * `wttrbar` for weather.
+* `waypaper` for wallpaper
 
 If there's more, I'm sure you'll figure it out :P
 
