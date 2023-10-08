@@ -1,0 +1,62 @@
+format = """
+[░▒▓](#89b4fa)\
+$os\
+$username\
+[](bg:#94e2d5 fg:#74c7ec)\
+$directory\
+[ ](#94e2d5)\
+$git_branch\
+$git_status\
+$c\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+$docker_context\
+$time\
+"""
+ 
+# Disable the blank line at the start of the prompt
+add_newline = true
+ 
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "fg:#313244 bg:#74c7ec"
+style_root = "fg:#313244 bg:#74c7ec"
+format = '[$user ]($style)'
+disabled = false
+ 
+# An alternative to the username module which displays a symbol that
+# represents the current operating system
+[os]
+style = "fg:#313244 bg:#74c7ec"
+disabled = true # Disabled by default
+ 
+[directory]
+style = "fg:#313244 bg:#94e2d5"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+ 
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+# Keep in mind that the order matters. For example:
+# "Important Documents" = "  "
+# will not be replaced, because "Documents" was already substituted before.
+# So either put "Important Documents" before "Documents" or use the substituted version:
+# "Important  " = "  "
+ 
